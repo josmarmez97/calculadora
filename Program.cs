@@ -8,12 +8,13 @@ namespace Calculadora
         {
             //Console.WriteLine("Hello World!");
             
-            int  a=10, b=4,resta;
+            int  a=10, b=4,resta,div;
             int x=2, y=5, resultado;
 
             resultado=x+y;
 
-            resta=a-b
+            resta=a-b;
+            div=a/b;
                 
             Console.WriteLine(sl+"Presentamos la calculadora del Equipo 2"+sl);
             Console.WriteLine("Integrantes: "+sl+"Fernandez Padierna Eduardo Martin"+sl+"Mezeta Yupit Josmar David"+sl+"Puc Oxte Rolando"+sl+"Chulin Eduardo");
@@ -21,6 +22,7 @@ namespace Calculadora
             Console.WriteLine(sl+"Opreraciones: Suma, resta, multiplicacion y division:"+sl+"Variables:"+sl+" X ="+x+sl+"Y="+y);
             Console.WriteLine("En una suma el resultado es: "+resultado);
             consola.Writeline("en una resta el resultado es:"+resta);
+            consola.Writeline("en una divisio el resultado es:"+div);
         }
     }
 }
