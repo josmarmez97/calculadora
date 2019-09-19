@@ -14,6 +14,8 @@ namespace Calculadora
             resultado=x+y;
 
             resta=a-b
+
+            division=(a/b)
                 
             Console.WriteLine(sl+"Presentamos la calculadora del Equipo 2"+sl);
             Console.WriteLine("Integrantes: "+sl+"Fernandez Padierna Eduardo Martin"+sl+"Mezeta Yupit Josmar David"+sl+"Puc Oxte Rolando"+sl+"Chulin Eduardo");
