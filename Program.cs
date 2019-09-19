@@ -9,14 +9,17 @@ namespace Calculadora
             //Console.WriteLine("Hello World!");
             
             int  a=10, b=4,resta;
-            int x=2, y=5, resultado;
+            int x=2, y=5, resultado 
+            double division=0;
 
             resultado=x+y;
 
             resta=a-b
 
-            division=(a/b)
-                
+        
+            division = (a/b)
+
+
             Console.WriteLine(sl+"Presentamos la calculadora del Equipo 2"+sl);
             Console.WriteLine("Integrantes: "+sl+"Fernandez Padierna Eduardo Martin"+sl+"Mezeta Yupit Josmar David"+sl+"Puc Oxte Rolando"+sl+"Chulin Eduardo");
             
